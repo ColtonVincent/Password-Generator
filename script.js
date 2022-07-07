@@ -27,7 +27,7 @@ function writePassword(){
    let passwordChar = upperCaseChar[Math.floor((Math.random()*  (upperCaseChar.length -1)))];
    generatedPwd.push(passwordChar);
 
-    
+  
   }
   var lowerCase = confirm("can you use lowerCase?");
   if (lowerCase) {
